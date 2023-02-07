@@ -161,6 +161,7 @@ button {
 .site-navigation-link {
   font-family: 'Roboto';
   font-style: normal;
+  padding: 24px 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -175,7 +176,7 @@ button {
   position: relative;
 }
 
-.site-navigation .current::after {
+.site-navigation-link.current::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -348,6 +349,7 @@ padding-right: 15px;
   line-height: 24px;
   font-style: normal;
   letter-spacing: 0.02em;
+  color: var(--body-color);
   
 }
 
